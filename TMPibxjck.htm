@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Flexbox Demo</title>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://use.typekit.net/kjz7cqs.css">
+<link href="jquery-tabs/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<header><img src="img/goyonder.png" alt="logo"></header>
+    
+<nav>
+<ul class="navitems">
+<li class="item"><a href="#">Home</a></li>
+<li class="item"><a href="#">Plan</a></li>
+<li class="item"><a href="#">Explore</a></li>
+<li class="item"><a href="#">About</a></li>
+<li class="item"><a href="#">Contact</a></li>
+</ul>
+</nav>
+<div>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1"></a>1</li>
+        <li><a href="#tabs-2">2</a></li>
+        <li><a href="#tabs-3">3</a></li>
+      </ul>
+      <div id="tabs-1">Tab 3</div>
+      <div id="tabs-2">Tab 2</div>
+      <div id="tabs-3">Tab 1</div>
+    </div>
+    <script src="jquery-tabs/external/jquery/jquery.js"></script> 
+    <script src="jquery-tabs/jquery-ui.js"></script> 
+    <script>
+$( "#tabs" ).tabs();
+</script> 
+  </div>
+
+</body>
+</html>
